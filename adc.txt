@@ -4,7 +4,7 @@ module memory_buffer2 #(parameter DEPTH=8, D_WIDTH=9)(
     output logic [9:0] data_out,
     output logic empty, full
     );
-    
+    ohuyg7y98yuyt
     logic [D_WIDTH - 1:0] buff_memory [0:(DEPTH-1)];
     logic [$clog2(DEPTH):0] counter;
    
